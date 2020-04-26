@@ -45,7 +45,6 @@ h2 {
   font-size: 30px; }
 
 h3 {
-  margin-bottom: 15px;
   font-size: 14px;
   font-weight: 400; }
 
@@ -382,7 +381,25 @@ h3 {
 .section {
   position: relative;
   padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  /* Element title-top */
+  /* Element title */ }
+  .section__title-top {
+    margin-bottom: 20px; }
+  .section__title {
+    position: relative;
+    padding-bottom: 45px;
+    text-align: center; }
+    .section__title::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: #f38181;
+      transform: translateX(-50%); }
 
 .page {
   display: flex;
@@ -428,5 +445,24 @@ h3 {
   .pageheader__title {
     margin-bottom: 100px;
     color: inherit; }
+
+.service {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* Element icon */
+  /* Element info */
+  /* Element title */ }
+  .service__icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+    fill: #95e1d3; }
+  .service__info {
+    flex: 1 1 0;
+    min-width: 1px;
+    max-width: 100%; }
+  .service__title {
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
