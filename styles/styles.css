@@ -413,4 +413,11 @@ h3 {
     fill: #fff;
     transition: fill .2s ease-in-out; }
 
+.title-top {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  line-height: 1;
+  color: #333;
+  text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
