@@ -43,8 +43,8 @@
       border-color: $inverse-color;
 
       &:hover {
-        color: darken($inverse-color, 10%);
-        border-color: darken($inverse-color, 10%);
+        color: $secondary-color;
+        border-color: $secondary-color;
       }
     }
   }

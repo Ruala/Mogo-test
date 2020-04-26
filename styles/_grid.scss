@@ -2,6 +2,7 @@ $grid-gutters: 15px;
 $container-width: 1200px;
 
 .container {
+  width: 100%;
   max-width: $container-width;
   padding-right: $grid-gutters;
   padding-left: $grid-gutters;
