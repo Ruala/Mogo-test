@@ -28,21 +28,34 @@
 
   /* Element section */
   &__section {
-    padding-top: 230px;
-    padding-bottom: 230px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     text-align: center;
+
+    @media (min-width: $breakpoint-sm) {
+      padding-top: 230px;
+      padding-bottom: 230px;
+    }
   }
 
   /* Element title-top */
   &__title-top {
     margin-bottom: 30px;
-    font-size: 72px;
+    font-size: 38px;
     color: inherit;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 72px;
+    }
   }
 
   /* Element title */
   &__title {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     color: inherit;
+
+    @media (min-width: $breakpoint-sm) {
+      margin-bottom: 100px;
+    }
   }
 }

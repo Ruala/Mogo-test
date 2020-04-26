@@ -1,7 +1,10 @@
 .service {
   display: flex;
   padding-top: 50px;
-  padding-bottom: 50px;
+
+  @media (min-width: $breakpoint-sm) {
+    padding-bottom: 50px;
+  }
 
   /* Element icon */
   &__icon {
