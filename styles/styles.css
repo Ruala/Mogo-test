@@ -35,7 +35,8 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 1;
-  color: #333; }
+  color: #333;
+  text-transform: uppercase; }
 
 h1 {
   font-size: 150px; }
@@ -312,10 +313,10 @@ h3 {
     justify-content: space-between;
     align-items: center; }
 
-.header {
+.footer {
   position: relative;
   /* Element container */ }
-  .header__container {
+  .footer__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -341,7 +342,10 @@ h3 {
   background-image: url("../images/eagle.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  /* Element section */
+  /* Element title-top */
+  /* Element title */ }
   .pageheader::before {
     content: "";
     position: absolute;
@@ -351,6 +355,15 @@ h3 {
     left: 0;
     background-image: linear-gradient(0deg, #fbe389 0%, #f38a81 100%);
     opacity: .9; }
+  .pageheader__section {
+    text-align: center; }
+  .pageheader__title-top {
+    margin-bottom: 30px;
+    font-size: 72px;
+    color: inherit; }
+  .pageheader__title {
+    margin-bottom: 100px;
+    color: inherit; }
 
 .logo {
   display: flex;
