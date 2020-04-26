@@ -26,4 +26,16 @@
       transform: translateX(-50%);
     }
   }
+
+  /* Element text */
+  &__text {
+    width: 100%;
+    max-width: 990px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 }

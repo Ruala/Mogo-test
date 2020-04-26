@@ -1,0 +1,19 @@
+.team-member {
+  text-align: center;
+
+  /* Element title */
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  /* Element about */
+  &__about {
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  /* Element photo */
+  &__photo {
+    margin-bottom: 30px;
+  }
+}

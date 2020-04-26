@@ -73,7 +73,7 @@
                   <use xlink:href="images/sprite.svg#alarm"></use>
                 </svg>
                 <div class="service__info">
-                  <h3>Photography</h3>
+                  <h3 class="service__title">Photography</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                 </div>
               </div>
@@ -88,7 +88,7 @@
                 </svg>
 
                 <div class="service__info">
-                  <h3>Web Design</h3>
+                  <h3 class="service__title">Web Design</h3>
                   <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                 </div>
               </div>
@@ -103,7 +103,7 @@
                 </svg>
 
                 <div class="service__info">
-                  <h3>Creativity</h3>
+                  <h3 class="service__title">Creativity</h3>
                   <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                 </div>
               </div>
@@ -118,7 +118,7 @@
                 </svg>
 
                 <div class="service__info">
-                  <h3>SEO</h3>
+                  <h3 class="service__title">SEO</h3>
                   <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                 </div>
               </div>
@@ -133,7 +133,7 @@
                 </svg>
 
                 <div class="service__info">
-                  <h3>Css/Html</h3>
+                  <h3 class="service__title">Css/Html</h3>
                   <p>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
                 </div>
               </div>
@@ -162,152 +162,161 @@
         <div class="container">
           <div class="title-top section__title-top">Who we are</div>
           <h2 class="section__title">Meet our team</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.</p>
 
           <!-- our team grid-->
           <div class="grid">
             <!-- our team column -->
-            <div class="col-sm-2 col-md-3">
+            <div class="col-sm-6 col-md-4">
               <!-- our team item-->
               <div class="team-member">
-                <div class="photo">
-                  <picture class="photo__image">
-                    <source srcset="images/team/photo-1@2x.jpg 2x">
-                    <img src="images/team/photo-1.jpg" alt="Matthew Dix">
-                  </picture>
-                  <div class="photo__links">
-                    <!-- social media menu for team member -->
-                    <ul class="icon-nav">
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#facebook"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#twitter"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#pinterest"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#instagram"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
+                <!-- photo -->
+                <div class="photo team-member__photo">
+                  <div class="photo__container">
+                    <picture class="photo__image">
+                      <source srcset="images/team/photo-1@2x.jpg 2x">
+                      <img src="images/team/photo-1.jpg" alt="Matthew Dix">
+                    </picture>
+                    <div class="photo__controls">
+                      <!-- social media menu for team member -->
+                      <ul class="icon-nav">
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#facebook"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#pinterest"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#instagram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <h3>Matthew Dix</h3>
+                <h3 class="team-member__title">Matthew Dix</h3>
                 <div class="team-member__about">Graphic Design</div>
               </div>
             </div>
 
             <!-- our team column -->
-            <div class="col-sm-2 col-md-3">
+            <div class="col-sm-6 col-md-4">
               <!-- our team item-->
               <div class="team-member">
-                <div class="photo">
-                  <picture class="photo__image">
-                    <source srcset="images/team/photo-2@2x.jpg 2x">
-                    <img src="images/team/photo-2.jpg" alt="Christopher Campbell">
-                  </picture>
-                  <div class="photo__links">
-                    <!-- social media menu for team member -->
-                    <ul class="icon-nav">
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#facebook"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#twitter"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#pinterest"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#instagram"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
+                <!-- photo -->
+                <div class="photo team-member__photo">
+                  <div class="photo__container">
+                    <picture class="photo__image">
+                      <source srcset="images/team/photo-2@2x.jpg 2x">
+                      <img src="images/team/photo-2.jpg" alt="Christopher Campbell">
+                    </picture>
+                    <div class="photo__controls">
+                      <!-- social media menu for team member -->
+                      <ul class="icon-nav">
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#facebook"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#pinterest"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#instagram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <h3>Christopher Campbell</h3>
+                <h3 class="team-member__title">Christopher Campbell</h3>
                 <div class="team-member__about">Branding/UX design</div>
               </div>
             </div>
 
             <!-- our team column -->
-            <div class="col-sm-2 col-md-3">
+            <div class="col-sm-6 col-md-4">
               <!-- our team item-->
               <div class="team-member">
-                <div class="photo">
-                  <picture class="photo__image">
-                    <source srcset="images/team/photo-3@2x.jpg 2x">
-                    <img src="images/team/photo-3.jpg" alt="Michael Fertig">
-                  </picture>
-                  <div class="photo__links">
-                    <!-- social media menu for team member -->
-                    <ul class="icon-nav">
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#facebook"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#twitter"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#pinterest"></use>
-                          </svg>
-                        </a>
-                      </li>
-                      <li class="icon-nav__item">
-                        <a class="icon-nav__link" href="#">
-                          <svg class="icon icon-nav__icon">
-                            <use xlink:href="images/sprite.svg#instagram"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    </ul>
+                <!-- photo -->
+                <div class="photo team-member__photo">
+                  <div class="photo__container">
+                    <picture class="photo__image">
+                      <source srcset="images/team/photo-3@2x.jpg 2x">
+                      <img src="images/team/photo-3.jpg" alt="Michael Fertig">
+                    </picture>
+                    <div class="photo__controls">
+                      <!-- social media menu for team member -->
+                      <ul class="icon-nav">
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#facebook"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#pinterest"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="icon-nav__item">
+                          <a class="icon-nav__link" href="#">
+                            <svg class="icon icon-nav__icon">
+                              <use xlink:href="images/sprite.svg#instagram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <h3>Michael Fertig</h3>
+                <h3 class="team-member__title">Michael Fertig</h3>
                 <div class="team-member__about">Developer</div>
               </div>
             </div>

@@ -357,6 +357,37 @@ h3 {
     fill: #fff;
     transition: fill .2s ease-in-out; }
 
+.icon-nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: #f38181;
+  /* Element item */
+  /* Element link */
+  /* Element icon */ }
+  .icon-nav__item {
+    margin-right: 1px; }
+    .icon-nav__item:last-child {
+      margin-right: 0; }
+  .icon-nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    text-decoration: none;
+    background-color: #fce38a; }
+    .icon-nav__link:hover {
+      background-color: #f38181; }
+      .icon-nav__link:hover .icon-nav__icon {
+        fill: #fff; }
+  .icon-nav__icon {
+    width: 26px;
+    height: 26px;
+    fill: #f38181;
+    transition: fill .2s ease-in-out; }
+
 .header {
   position: relative;
   padding-top: 25px;
@@ -383,7 +414,8 @@ h3 {
   padding-top: 40px;
   padding-bottom: 40px;
   /* Element title-top */
-  /* Element title */ }
+  /* Element title */
+  /* Element text */ }
   .section__title-top {
     margin-bottom: 20px; }
   .section__title {
@@ -400,6 +432,15 @@ h3 {
       height: 3px;
       background-color: #f38181;
       transform: translateX(-50%); }
+  .section__text {
+    width: 100%;
+    max-width: 990px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    text-align: center; }
 
 .page {
   display: flex;
@@ -464,5 +505,54 @@ h3 {
     max-width: 100%; }
   .service__title {
     margin-bottom: 10px; }
+
+.photo {
+  position: relative;
+  background-color: #95e1d3;
+  /* Element container */
+  /* Element controls */ }
+  .photo:hover .photo__container {
+    top: -10px;
+    left: -10px; }
+  .photo:hover .photo__controls {
+    opacity: 1; }
+  .photo__container {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all .2s ease-in-out; }
+  .photo__controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .2s ease-in-out; }
+    .photo__controls::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
+      opacity: .9; }
+
+.team-member {
+  text-align: center;
+  /* Element title */
+  /* Element about */
+  /* Element photo */ }
+  .team-member__title {
+    margin-bottom: 10px; }
+  .team-member__about {
+    font-weight: 300;
+    font-style: italic; }
+  .team-member__photo {
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
