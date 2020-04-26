@@ -9,9 +9,7 @@
   &__item {
     margin-right: 1px;
 
-    &:last-child {
-      margin-right: 0;
-    }
+    &:last-child { margin-right: 0; }
   }
 
   /* Element link */
@@ -27,9 +25,7 @@
     &:hover {
       background-color: $primary-color;
 
-      .icon-nav__icon {
-        fill: $inverse-color;
-      }
+      .icon-nav__icon { fill: $inverse-color; }
     }
   }
 

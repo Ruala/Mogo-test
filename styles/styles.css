@@ -279,7 +279,8 @@ h3 {
   user-select: none;
   -webkit-appearance: none;
   /* Elements */
-  /* Modifiers theme */ }
+  /* Modifiers theme */
+  /* Modifiers view */ }
   .btn:focus {
     outline: none; }
   .btn_theme_default {
@@ -296,7 +297,12 @@ h3 {
     .btn_theme_inverse:hover {
       color: #fce38a;
       border-color: #fce38a; }
+  .btn_view_mobile {
+    display: inline-block; }
 
+@media (min-width: 960px) {
+  .btn_view_mobile {
+    display: none; } }
 .icon {
   display: flex;
   justify-content: center;
@@ -322,41 +328,44 @@ h3 {
     color: inherit; }
 
 .menu {
-  display: flex;
-  align-items: center;
-  /* Element item */
-  /* Element icon */ }
-  .menu__item {
-    position: relative;
-    display: block;
-    padding: 10px 25px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: inherit;
-    text-decoration: none;
-    /* Modifier active and hover */ }
-    .menu__item::after {
-      content: "";
-      position: absolute;
-      right: calc(100% - 25px);
-      bottom: 0;
-      left: 25px;
-      display: block;
-      height: 3px;
-      background-color: #fce38a;
-      transition: right .2s ease-in-out; }
-    .menu__item:hover, .menu__item_active {
-      color: #fce38a; }
-      .menu__item:hover::after, .menu__item_active::after {
-        right: 25px; }
-      .menu__item:hover .menu__icon, .menu__item_active .menu__icon {
-        fill: #fce38a; }
-  .menu__icon {
-    width: 18px;
-    height: 18px;
-    fill: #fff;
-    transition: fill .2s ease-in-out; }
+  display: none; }
 
+@media (min-width: 960px) {
+  .menu {
+    display: flex;
+    align-items: center;
+    /* Element item */
+    /* Element icon */ }
+    .menu__item {
+      position: relative;
+      display: block;
+      padding: 10px 25px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      color: inherit;
+      text-decoration: none;
+      /* Modifier active and hover */ }
+      .menu__item::after {
+        content: "";
+        position: absolute;
+        right: calc(100% - 25px);
+        bottom: 0;
+        left: 25px;
+        display: block;
+        height: 3px;
+        background-color: #fce38a;
+        transition: right .2s ease-in-out; }
+      .menu__item:hover, .menu__item_active {
+        color: #fce38a; }
+        .menu__item:hover::after, .menu__item_active::after {
+          right: 25px; }
+        .menu__item:hover .menu__icon, .menu__item_active .menu__icon {
+          fill: #fce38a; }
+    .menu__icon {
+      width: 18px;
+      height: 18px;
+      fill: #fff;
+      transition: fill .2s ease-in-out; } }
 .icon-nav {
   position: relative;
   display: flex;

@@ -48,4 +48,11 @@
       }
     }
   }
+
+  /* Modifiers view */
+  &_view_mobile { display: inline-block; }
+}
+
+@media (min-width: $breakpoint-md) {
+  .btn_view_mobile { display: none; }
 }

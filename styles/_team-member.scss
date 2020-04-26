@@ -2,9 +2,7 @@
   text-align: center;
 
   /* Element title */
-  &__title {
-    margin-bottom: 10px;
-  }
+  &__title { margin-bottom: 10px; }
 
   /* Element about */
   &__about {
@@ -13,7 +11,5 @@
   }
 
   /* Element photo */
-  &__photo {
-    margin-bottom: 30px;
-  }
+  &__photo { margin-bottom: 30px; }
 }
