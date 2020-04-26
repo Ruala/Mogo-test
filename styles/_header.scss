@@ -9,4 +9,13 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  /* Element menu */
+  &__menu { display: none; }
+}
+
+
+
+@media (min-width: $breakpoint-md) {
+  .header__menu { display: flex; }
 }

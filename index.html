@@ -27,7 +27,7 @@
           <a class="logo" href="/">MoGo</a>
 
           <!-- main menu -->
-          <nav class="menu">
+          <nav class="menu header__menu">
             <a class="menu__item menu__item_active" href="#">About</a>
             <a class="menu__item" href="#">Service</a>
             <a class="menu__item" href="#">Work</a>
@@ -45,7 +45,7 @@
             </a>
           </nav>
 
-          <button class="btn btn_theme_inverse btn_view_mobile js-open-menu" type="button">Menu</button>
+          <button class="btn btn_theme_inverse btn_view_mobile js-offcanvas-open" type="button">Menu</button>
         </div>
       </header>
 
@@ -342,7 +342,38 @@
   </footer>
 </div>
 
+<!-- mobile menu -->
+<div class="offcanvas">
+  <div class="offcanvas__bar">
+    <button class="btn offcanvas__close js-offcanvas-close" type="button">&#10060;</button>
+
+    <!-- main menu -->
+    <nav class="menu menu_vertical">
+      <a class="menu__item menu__item_active" href="#">About</a>
+      <a class="menu__item" href="#">Service</a>
+      <a class="menu__item" href="#">Work</a>
+      <a class="menu__item" href="#">Blog</a>
+      <a class="menu__item" href="#">Contact</a>
+      <a class="menu__item" href=""#>
+        <svg class="icon menu__icon">
+          <use xlink:href="images/sprite.svg#shopping-cart"></use>
+        </svg>
+      </a>
+      <a class="menu__item" href="#">
+        <svg class="icon menu__icon">
+          <use xlink:href="images/sprite.svg#magnifying-glass"></use>
+        </svg>
+      </a>
+    </nav>
+
+  </div>
+</div>
+
 <!-- add js -->
+<script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
