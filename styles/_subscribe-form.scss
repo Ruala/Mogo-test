@@ -1,0 +1,25 @@
+.subscribe-form {
+  display: flex;
+
+  /* Element input */
+  &__input {
+    flex: 1 1 0;
+    width: 230px;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: $global-font-family;
+    font-size: $global-font-size;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 38px;
+    background-color: transparent;
+    border: 1px solid #e7e7e7;
+    border-radius: 0;
+  }
+
+  /* Element button */
+  &__button {
+    margin-left: -1px;
+  }
+}

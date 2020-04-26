@@ -6,7 +6,7 @@
   font-family: $global-heading-family;
   font-size: 14px;
   font-weight: 700;
-  line-height: 38px;
+  line-height: 34px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -27,12 +27,12 @@
   &_theme {
 
     &_default {
-      color: $quaternary-color;
-      background-color: transparent;
+      color: $inverse-color;
+      background-color: $quaternary-color;
       border-color: $quaternary-color;
 
       &:hover {
-        color: darken($quaternary-color, 10%);
+        background-color: darken($quaternary-color, 10%);
         border-color: darken($quaternary-color, 10%);
       }
     }
