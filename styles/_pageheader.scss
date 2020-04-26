@@ -17,8 +17,19 @@
     opacity: .9;
   }
 
+  /* Element header */
+  &__header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+  }
+
   /* Element section */
   &__section {
+    padding-top: 230px;
+    padding-bottom: 230px;
     text-align: center;
   }
 

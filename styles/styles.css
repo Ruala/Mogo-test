@@ -274,7 +274,7 @@ h3 {
   border-width: 3px;
   border-style: solid;
   border-radius: 0;
-  transition: color, background-color, border-color .2s ease-in-out;
+  transition: all .2s ease-in-out;
   cursor: pointer;
   overflow: visible;
   user-select: none;
@@ -303,67 +303,12 @@ h3 {
   justify-content: center;
   align-items: center; }
 
-.header {
-  position: relative;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  /* Element container */ }
-  .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-
-.footer {
-  position: relative;
-  /* Element container */ }
-  .footer__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: 1px solid #e5e5e5; }
-
-.section {
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px; }
-
-.page {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-  box-sizing: border-box; }
-
-.pageheader {
-  position: relative;
-  color: #fff;
-  background-image: url("../images/eagle.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* Element section */
-  /* Element title-top */
-  /* Element title */ }
-  .pageheader::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(0deg, #fbe389 0%, #f38a81 100%);
-    opacity: .9; }
-  .pageheader__section {
-    text-align: center; }
-  .pageheader__title-top {
-    margin-bottom: 30px;
-    font-size: 72px;
-    color: inherit; }
-  .pageheader__title {
-    margin-bottom: 100px;
-    color: inherit; }
+.title-top {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  line-height: 1;
+  color: #333;
+  text-align: center; }
 
 .logo {
   display: flex;
@@ -413,11 +358,75 @@ h3 {
     fill: #fff;
     transition: fill .2s ease-in-out; }
 
-.title-top {
-  font-family: "Kaushan Script", cursive;
-  font-size: 24px;
-  line-height: 1;
-  color: #333;
-  text-align: center; }
+.header {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* Element container */ }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.footer {
+  position: relative;
+  /* Element container */ }
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #e5e5e5; }
+
+.section {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  box-sizing: border-box; }
+
+.pageheader {
+  position: relative;
+  color: #fff;
+  background-image: url("../images/eagle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* Element header */
+  /* Element section */
+  /* Element title-top */
+  /* Element title */ }
+  .pageheader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, #fbe389 0%, #f38a81 100%);
+    opacity: .9; }
+  .pageheader__header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10; }
+  .pageheader__section {
+    padding-top: 230px;
+    padding-bottom: 230px;
+    text-align: center; }
+  .pageheader__title-top {
+    margin-bottom: 30px;
+    font-size: 72px;
+    color: inherit; }
+  .pageheader__title {
+    margin-bottom: 100px;
+    color: inherit; }
 
 /*# sourceMappingURL=styles.css.map */
