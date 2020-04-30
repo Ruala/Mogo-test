@@ -41,9 +41,7 @@ $(()=>{
             const isOpen = $offcanvas.hasClass('offcanvas_open');
             const isButton = $target.closest($btnOpen).length;
 
-            if (isCanvas || !isOpen || isButton) {
-                return;
-            }
+            if (isCanvas || !isOpen || isButton) return;
 
             handleClose(e);
         }
